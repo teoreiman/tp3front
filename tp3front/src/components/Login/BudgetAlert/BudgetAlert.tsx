@@ -1,5 +1,5 @@
-import { budgetStatus, totalByType, formatCurrency } from '../../lib/finance'
-import type { Transaction } from '../../types'
+import { budgetStatus, totalByType, formatCurrency } from '../../../lib/finance'
+import type { Transaction } from '../../../types'
 
 interface BudgetAlertProps {
   transactions: Transaction[]

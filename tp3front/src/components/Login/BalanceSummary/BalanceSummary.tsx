@@ -1,5 +1,5 @@
-import { calculateBalance, totalByType, formatCurrency } from '../../lib/finance'
-import type { Transaction } from '../../types'
+import { calculateBalance, totalByType, formatCurrency } from '../../../lib/finance'
+import type { Transaction } from '../../../types'
 
 interface BalanceSummaryProps {
   transactions: Transaction[]

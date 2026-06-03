@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react'
-import { CATEGORIES } from '../../types'
-import type { Category, Transaction, TransactionType } from '../../types'
+import { CATEGORIES } from '../../../types'
+import type { Category, Transaction, TransactionType } from '../../../types'
 
 interface TransactionFormProps {
   onAdd: (tx: Omit<Transaction, 'id' | 'date'>) => void

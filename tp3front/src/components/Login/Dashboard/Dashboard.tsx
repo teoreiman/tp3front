@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import type { Session } from '../../lib/auth'
-import type { Transaction } from '../../types'
+import type { Session } from '../../../lib/auth'
+import type { Transaction } from '../../../types'
 import { BalanceSummary } from '../BalanceSummary/BalanceSummary'
 import { BudgetAlert } from '../BudgetAlert/BudgetAlert'
 import { TransactionForm } from '../TransactionForm/TransactionForm'
@@ -39,7 +39,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
   return (
     <div className="dashboard">
       <header className="dashboard__header">
-        <h1>💰 FinTrack</h1>
+        <h1>guarda guita</h1>
         <div className="dashboard__user">
           <span>Hola, {session.username}</span>
           <button onClick={onLogout}>Salir</button>

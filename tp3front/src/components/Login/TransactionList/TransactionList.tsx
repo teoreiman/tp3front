@@ -1,5 +1,5 @@
-import { formatCurrency } from '../../lib/finance'
-import type { Transaction } from '../../types'
+import { formatCurrency } from '../../../lib/finance'
+import type { Transaction } from '../../../types'
 
 interface TransactionListProps {
   transactions: Transaction[]
