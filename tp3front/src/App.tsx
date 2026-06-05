@@ -13,6 +13,12 @@ function App() {
     setSession(null)
   }
 
+  const mensaje = session
+    ? 'Sesión iniciada correctamente'
+    : 'Iniciá sesión para continuar'
+
+  console.log(mensaje)
+
   if (!session) {
     return <Login onLogin={setSession} />
   }
