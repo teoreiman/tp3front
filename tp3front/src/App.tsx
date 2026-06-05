@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   const [session, setSession] = useState<Session | null>(() => getSession())
 
-  function handleLogout() {
+  function cerrarsesion() {
     logout()
     setSession(null)
   }
@@ -17,7 +17,7 @@ function App() {
     return <Login onLogin={setSession} />
   }
 
-  return <Dashboard session={session} onLogout={handleLogout} />
+  return <Dashboard session={session} onLogout={cerrarsesion} />
 }
 
 export default App
