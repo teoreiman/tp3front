@@ -39,7 +39,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
   return (
     <div className="dashboard">
       <header className="dashboard__header">
-        <h1>guarda guita</h1>
+        <h1>💰 FinTrack</h1>
         <div className="dashboard__user">
           <span>Hola, {session.username}</span>
           <button onClick={onLogout}>Salir</button>
