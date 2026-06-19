@@ -82,6 +82,7 @@ jobs:
             echo "configured=false" >> "$GITHUB_OUTPUT"
             echo "::warning::Secrets de Vercel ausentes; se omite el deploy por Actions. Vercel despliega produccion por su integracion de GitHub."
           fi
+          exit 0
       - uses: actions/checkout@v4
         if: steps.vercel.outputs.configured == 'true'
       - uses: actions/setup-node@v4
