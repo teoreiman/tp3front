@@ -9,7 +9,6 @@ describe('login', () => {
   it('devuelve la sesión y la persiste con credenciales válidas', () => {
     const session = login('demo', 'demo1234')
     expect(session).toEqual({ username: 'demo' })
-    // queda persistida para recuperarla luego
     expect(getSession()).toEqual({ username: 'demo' })
   })
 
