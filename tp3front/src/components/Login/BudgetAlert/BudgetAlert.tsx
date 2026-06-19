@@ -7,9 +7,9 @@ interface BudgetAlertProps {
 }
 
 const MESSAGES = {
-  ok: 'Vas bien con tu presupuesto 👍',
-  warning: 'Cuidado: ya usaste más del 80% del presupuesto ⚠️',
-  exceeded: '¡Te pasaste del presupuesto! 🚨',
+  ok: 'Vas bien con tu presupuesto',
+  warning: 'Cuidado: ya usaste más del 80% del presupuesto',
+  exceeded: '¡Te pasaste del presupuesto!',
 } as const
 
 export function BudgetAlert({ transactions, budget }: BudgetAlertProps) {

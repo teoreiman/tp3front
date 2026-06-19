@@ -4,7 +4,6 @@ export interface Session {
   username: string
 }
 
-// Credenciales demo. En una app real esto iría contra un backend.
 const DEMO_USER = 'demo'
 const DEMO_PASS = 'demo1234'
 
