@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'fintrack.user'
+const STORAGE_KEY = 'fin-de-mes.user'
 
 export interface Session {
   username: string

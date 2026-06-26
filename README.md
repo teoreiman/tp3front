@@ -1,4 +1,4 @@
-# FinTrack — TP3 Calidad y Automatización (CI/CD)
+# Fin de Mes — TP3 Calidad y Automatización (CI/CD)
 
 Aplicación de finanzas personales (continuación del TP2) con un **pipeline de
 calidad** que valida y despliega automáticamente cada cambio: `lint → tests →

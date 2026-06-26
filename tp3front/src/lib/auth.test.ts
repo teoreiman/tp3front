@@ -24,7 +24,7 @@ describe('getSession', () => {
   })
 
   it('devuelve null si el dato guardado está corrupto', () => {
-    localStorage.setItem('fintrack.user', '{ no es json')
+    localStorage.setItem('fin-de-mes.user', '{ no es json')
     expect(getSession()).toBeNull()
   })
 })

@@ -4,6 +4,7 @@ import {
   totalByType,
   groupByCategory,
   budgetStatus,
+  formatCurrency,
 } from './finance'
 import type { Transaction } from '../types'
 
@@ -52,5 +53,15 @@ describe('budgetStatus', () => {
 
   it('no rompe si el presupuesto es 0', () => {
     expect(budgetStatus(50, 0)).toEqual({ percentage: 0, status: 'ok' })
+  })
+})
+
+describe('formatCurrency', () => {
+  it('formatea montos en pesos argentinos con separador de miles', () => {
+    expect(formatCurrency(50000)).toContain('50.000')
+  })
+
+  it('formatea cero correctamente', () => {
+    expect(formatCurrency(0)).toContain('0')
   })
 })

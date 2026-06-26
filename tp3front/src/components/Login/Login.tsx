@@ -26,7 +26,7 @@ export function Login({ onLogin }: LoginProps) {
   return (
     <div className="login">
       <form className="login__card" onSubmit={handleSubmit}>
-        <h1 className="login__title">💰 FinTrack</h1>
+        <h1 className="login__title">💰 Fin de Mes</h1>
         <p className="login__subtitle">Ingresá para gestionar tus gastos</p>
 
         <label className="login__field">

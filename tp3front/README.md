@@ -1,4 +1,4 @@
-# FinTrack (app)
+# Fin de Mes (app)
 
 Aplicación de finanzas personales: React + TypeScript + Vite.
 
